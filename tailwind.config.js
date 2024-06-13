@@ -6,12 +6,26 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      inter: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system',],
+      poppins: ['Poppins', 'system-ui', '-apple-system',],
+      sans: ['Open Sans Hebrew', 'system-ui', '-apple-system',],
+    },
+    container:{
+      center: true,
+      padding: "1rem",
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+        primary: {
+          DEFAULT: "#FEFEFE",
+          light: "#F7F7F7",
+          red: '#EB484C'
+        },
+        secondary: {
+          DEFAULT: "#010101",
+        },
+      }
     },
   },
   plugins: [],
