@@ -6,3 +6,11 @@ export const footerSocalIconList = [
     { logo: (<TelegramIcon />), link: "https://www.telegram.com/" },
     { logo: (<XIcon />), link: "https://twitter.com/" },
 ]
+export const footerLinkList = [
+    { title: "Home ", link: "#home" },
+    { title: "Games", link: "#games" },
+    { title: "AI-Platform", link: "#platform" },
+    { title: "Team", link: "#team" },
+    { title: "Careers", link: "#carrers" },
+    { title: "Privacy Policy", link: "#privacy" },
+]
